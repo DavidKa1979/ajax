@@ -13,26 +13,28 @@
   // });
   $(document).ready(function () {
 
-   
     $("#linkMain").click(function () {
       // Loading the content of main.html into to .content class
       $(".content").load("main.html");
+      $(".domin").load("dom.html");
     });
   
     $("#linkMain").ready(function () {
     // Loading the content of main.html into to .content class
     $(".content").load("main.html");
+    $(".domin").load("dom.html");
   });
 
   $("#linkAbout").click(function () {
     // Loading the content of about.html into to .content class
     $(".content").load("about.html");
-    $("div.domjumbo").html();
+    $(".domin").load("dom2.html");
   });
 
   $("#linkContact").click(function () {
     // Loading the content of contact.html into to .content class
     $(".content").load("contact.html");
+    $(".domin").load("dom3.html");
   });
 
 });
