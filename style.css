@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    position: unset;
+} */
+
+.jumbotron {
+    font-family: 'Indie Flower', cursive;
+text-align: center;
+margin-bottom: 0px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img-top {
+    padding:10%;
+}
+
+div>nav.navbar {
+margin-bottom: 20px;
+}
+
+/* .modal-backdrop {
+    position: sticky;
+} */
+
+.btn-primary {
+    background-color: inherit;
+    border-color:transparent;
+    color: rgb(87, 87, 87);
+}
+
+.btn-primary:hover {
+    background-color:  rgb(203, 170, 135);
+    border-color: rgb(85, 49, 20)
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 30, 0, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: rgba(255, 30, 0, 0.5);
+}
+
+.carousel-inner img {
+    width: 100vw;
+  }
+
+  .image-container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiEtWlpPht7f5Re3uWH5nau7TE953pulS0kQi7WhTHzOwaJPJN");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+  }
+  
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+
+  
